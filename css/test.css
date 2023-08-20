@@ -1,0 +1,118 @@
+*
+{
+    font-family: Red Hat Display;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #e0e8ff;
+}
+.back::after
+{
+    content: "";
+    width: 100%;
+    height: 48.5vh;
+    background-image:url(../images/pattern-background-desktop.svg);
+    display: flex;
+
+}
+.card
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top:-330px;
+}
+.image img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: -5px;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 450px;
+    background-color: white;
+    color: #16213c;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius: 15px;
+    box-shadow: 1px 14px 10px #0000ff0d;
+
+}
+.title
+{
+    margin:30px;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+p
+{
+    margin: -10px 100px 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #9499ac;
+}
+.table
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color:#f8f9fe ;
+    border-radius: 10px;
+}
+.table img
+{
+    margin-right: 20px;
+    padding: 10px 0px 10px 10px;
+    width: 45px;
+
+}
+.span
+{
+    margin-right: 115px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #16213c;
+}
+.span2
+{
+    font-size: 15px;
+    font-weight: 500;
+    color:#9499ac ;
+}
+.table a
+{
+    padding: 10px;
+    color: #4e43d1;
+    font-size: 13px;
+    font-weight: 700;
+}
+.button
+{
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    background-color: #382ae1;
+    border-radius: 10px;
+    width: 350px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 1px 14px 10px #0000ff26;
+}
+.button2
+{
+    margin: 20px 0px 50px 0px;
+    font-weight: 700;
+    color: #8c90ab;
+}
